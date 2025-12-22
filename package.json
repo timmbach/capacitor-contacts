@@ -1,0 +1,36 @@
+{
+  "name": "capacitor-contacts-app",
+  "version": "1.0.0",
+  "description": "A Capacitor TypeScript Vite app to fetch and display contacts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "open:ios": "npx cap open ios",
+    "open:android": "npx cap open android",
+    "sync": "npm run build && npx cap sync",
+    "sync:ios": "npm run build && npx cap sync ios",
+    "sync:android": "npm run build && npx cap sync android"
+  },
+  "keywords": [
+    "capacitor",
+    "contacts",
+    "mobile",
+    "typescript",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0",
+    "@capacitor/android": "^7.0.0",
+    "@capacitor-community/contacts": "github:capacitor-community/contacts"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0"
+  }
+}
