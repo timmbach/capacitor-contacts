@@ -6,7 +6,7 @@ Testing the `feat/ios-limited-authorization-status` branch from `@capacitor-comm
 
 ## Current Status
 
-⚠️ **Not Working** - The branch builds and syncs successfully but does not retrieve contacts on either iOS or Android.
+⚠️ **Not Working** - I needed to create a mock file for type definition successfully but does not retrieve contacts on either iOS or Android.
 
 ## Installation
 
