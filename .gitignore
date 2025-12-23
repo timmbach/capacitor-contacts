@@ -13,8 +13,6 @@ dist-ssr/
 .vite/
 
 # Capacitor
-ios/
-android/
 .capacitor/
 www/
 
